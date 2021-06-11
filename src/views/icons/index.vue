@@ -84,7 +84,7 @@ export default {
     width: 100px;
     float: left;
     font-size: 30px;
-    color: #24292e;
+    color: #ffffff;
     cursor: pointer;
   }
 
