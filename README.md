@@ -1,8 +1,22 @@
-# Darked vue-element-admin
+# Cleaned vue-element-admin
 
 ## Fork of [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 
-![2021-06-11_07-05](https://user-images.githubusercontent.com/2696333/121629302-8c66b580-ca83-11eb-8e02-902c28135f98.png)
+[Darked vue-element-admin](https://github.com/bnku/vue-element-admin-dark)
+
+* removed views and some components
+* removed dependencies:
+  * codemirror
+  * echarts
+  * file-sav
+  * jsonlint
+  * jszip
+  * script-load
+  * tui-edit
+  * vuex
+  * xlsx
+
+![изображение](https://user-images.githubusercontent.com/2696333/121634474-49114480-ca8d-11eb-9a71-1b909e2eebb3.png)
 
 <!-- --- -->
 <p align="center" style="margin-top:70px">
