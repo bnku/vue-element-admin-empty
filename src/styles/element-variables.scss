@@ -2,16 +2,16 @@
 
 
 $--color-primary: $primary;
-$--color-white: #1E2336;
-$--background-color-base: #1E2336;
-$--color-black: #090D16;
+$--color-white: $mainDark;
+$--background-color-base: $mainDark;
+$--color-black: $mainAppBg;
 $--border-color-base: #292F47;
-$--color-text-primary: #BFCBD9;
-$--color-text-regular: #BFCBD9;
+$--color-text-primary: $mainText;
+$--color-text-regular: $mainText;
 $--color-text-secondary: #8D9AA9;
 $--color-info: #986ADD;
 $--border-color-light: #1E2334;
-$--border-color-lighter: #282E43;
+$--border-color-lighter: $subMenuBg;
 $--border-color-extra-light: #2E334A;
 $--color-text-placeholder: #65788F;
 $--color-warning: #EA7516;
