@@ -71,6 +71,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '~@/styles/variables.scss';
+
 .panel-group {
   margin-top: 18px;
 
@@ -84,8 +86,8 @@ export default {
     font-size: 12px;
     position: relative;
     overflow: hidden;
-    color: #666;
-    background: #fff;
+    color: $mainText;
+    background: $mainDark;
     box-shadow: 4px 4px 40px rgba(0, 0, 0, .05);
     border-color: rgba(0, 0, 0, .05);
 
@@ -148,7 +150,7 @@ export default {
 
       .card-panel-text {
         line-height: 18px;
-        color: rgba(0, 0, 0, 0.45);
+        color: rgba($mainText, 0.45);
         font-size: 16px;
         margin-bottom: 12px;
       }

@@ -4,7 +4,7 @@
 
 <script>
 import echarts from 'echarts'
-require('echarts/theme/macarons') // echarts theme
+require('@/vendor/echarts.theme.js') // echarts theme
 import resize from './mixins/resize'
 
 const animationDuration = 6000
@@ -44,7 +44,7 @@ export default {
   },
   methods: {
     initChart() {
-      this.chart = echarts.init(this.$el, 'macarons')
+      this.chart = echarts.init(this.$el, 'theme')
 
       this.chart.setOption({
         tooltip: {

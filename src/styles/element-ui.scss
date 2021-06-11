@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 // cover some element-ui styles
 
 .el-breadcrumb__inner,
@@ -81,4 +83,15 @@
 // to fix el-date-picker css style
 .el-range-separator {
   box-sizing: content-box;
+}
+
+.el-radio-button{
+  &__inner{
+    color: rgba($subMenuActiveText, 0.5);
+    background: rgba($primary,0.3);
+    border-color: rgba($primary,0.05);
+    &:hover{
+      color: $subMenuActiveText;
+    }
+  }
 }

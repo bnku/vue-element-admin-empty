@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="switch-role">
     <div style="margin-bottom:15px;">
       Your roles: {{ roles }}
     </div>
@@ -30,3 +30,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.switch-role{
+  color: #bfcbd9;
+}
+</style>

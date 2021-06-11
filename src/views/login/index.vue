@@ -204,7 +204,7 @@ export default {
 /* 修复input 背景不协调 和光标变色 */
 /* Detail see https://github.com/PanJiaChen/vue-element-admin/pull/927 */
 
-$bg:#283443;
+$bg:#1E2336;
 $light_gray:#fff;
 $cursor: #fff;
 
@@ -248,7 +248,8 @@ $cursor: #fff;
 </style>
 
 <style lang="scss" scoped>
-$bg:#2d3a4b;
+$bg:#1E2336;
+// $bg:#2d3a4b;
 $dark_gray:#889aa4;
 $light_gray:#eee;
 

@@ -4,8 +4,9 @@
 
 <script>
 import echarts from 'echarts'
-require('echarts/theme/macarons') // echarts theme
+require('@/vendor/echarts.theme.js') // echarts theme
 import resize from './mixins/resize'
+import variables from '@/styles/variables.scss'
 
 export default {
   mixins: [resize],
@@ -36,6 +37,11 @@ export default {
       chart: null
     }
   },
+  computed: {
+    variables() {
+      return variables
+    }
+  },
   watch: {
     chartData: {
       deep: true,
@@ -58,7 +64,8 @@ export default {
   },
   methods: {
     initChart() {
-      this.chart = echarts.init(this.$el, 'macarons')
+      // echarts.registerTheme('theme', echartsTheme)
+      this.chart = echarts.init(this.$el, 'theme')
       this.setOptions(this.chartData)
     },
     setOptions({ expectedData, actualData } = {}) {
@@ -120,7 +127,7 @@ export default {
                 width: 2
               },
               areaStyle: {
-                color: '#f3f8ff'
+                color: variables.mainDark
               }
             }
           },
