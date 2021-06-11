@@ -1,6 +1,6 @@
 # Darked vue-element-admin
 
-## Fork of [vue-element-admin](https://panjiachen.github.io/vue-element-admin)
+## Fork of [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 
 ![2021-06-11_07-05](https://user-images.githubusercontent.com/2696333/121629302-8c66b580-ca83-11eb-8e02-902c28135f98.png)
 
